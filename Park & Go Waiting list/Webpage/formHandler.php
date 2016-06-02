@@ -1,9 +1,9 @@
 <html>
 <body>
-
+hi <br>
 <?php
-    
-	echo $_POST["firstname"];
+    echo "bello!";
+	echo $_POST["email"];
 ?>
 
 </body>
