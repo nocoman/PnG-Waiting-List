@@ -31,7 +31,7 @@
         
         
     <div  id="form" >
-	    <form action ="formHandler.php" method="post">
+	    <form action="fromHandler.php" method="post">
 	    	<fieldset>
 	    		<legend align="center">Parking Waiting List Submission</legend>
 	    		<table id = "formtable">
@@ -103,7 +103,9 @@
 	                            <option>Holdrege Big X Lot</option>    
 	                        </select>
                         </td>
-                        <td>
+					</tr>
+					<tr>
+						<td>
                             3rd Pick <br>
 			        		<select>
                                 <option selected="selected" disabled="disabled">Choose A Garage</option>
@@ -125,10 +127,40 @@
 	                            <option>Holdrege Big X Lot</option>    
 	                        </select>
 			            </td>
+			            <td>
+			            	Which do you perfer? <br> <br>
+
+			            	This...<br>
+			            	<input type="checkbox" name="currentParker">Do you currently park with us?<br><br>
+
+
+			            	Or this?<br>
+                            Where do you currently park with us? <br>
+			        		<select>
+                                <option>I currently don't park with Park & Go</option>
+	                            <option>Blue 3</option>
+	                            <option>Carriage Park</option>
+	                            <option>Center Park</option>
+	                            <option>Cornhusker</option>
+	                            <option>Green 2</option>
+	                            <option>Haymarket</option>
+	                            <option>Larson Building</option>
+	                            <option>Lumberworks</option>
+	                            <option>Market Place</option>
+	                            <option>Tours</option>
+	                            <option>Que Place</option>
+	                            <option>Red 1</option>
+	                            <option>University Square</option>
+	                            <option>19th and Q Lot</option>
+	                            <option>West Depot Lot</option>
+	                            <option>Holdrege Big X Lot</option>    
+	                        </select>
+			            </td>
 					</tr>
 					<tr>
 						<td style = "justify-content: center;align-items:center">
-	                        <a href="#" class="myButton">Submit</a>
+	                        
+    					<input type="submit" class="myButton">
 	                    </td>
 					</tr>
 				</table> 
@@ -136,6 +168,9 @@
 		</form>
     </div>
 
+    Just being stored here
+
+    <a href="#" class="myButton">Submit</a>
     <div id="footer">
     	<br>
     	&copy Park & Go.
