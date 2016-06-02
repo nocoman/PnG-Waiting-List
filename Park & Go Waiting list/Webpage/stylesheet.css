@@ -1,0 +1,56 @@
+* {
+    font-family: Segoe UI, Arial;
+    background-color: #ecf0f1;
+}
+#header {
+	background-color: #008dd5;
+    display: block;
+    margin: 0 auto;
+	border-bottom: 10px solid #000;
+		
+}
+
+#logo {
+   	background-color: #008dd5;
+    border: 0 none;
+}
+
+#formtable {
+	border-spacing: 10px 15px;
+	border: 1px;
+	border-color: black;
+	margin: 1em auto;
+}
+
+
+
+#footer {
+	background-color: #008dd5;
+	border-top: 10px solid #000;
+	text-align: center;
+}
+
+
+
+
+
+.myButton {
+	background-color:#e0e3da;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 90px;
+	text-decoration:none;;
+}
+.myButton:hover {
+	background-color:#9ba892;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
